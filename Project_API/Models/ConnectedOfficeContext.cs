@@ -27,7 +27,7 @@ namespace Project_API.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("Password=Ti0tbfm2;Persist Security Info=True;User ID=Shi3ya4;Initial Catalog=ConnectedOffice;Data Source=project2-36574317.database.windows.net");
             }
         }
