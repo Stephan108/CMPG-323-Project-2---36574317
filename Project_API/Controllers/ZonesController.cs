@@ -119,5 +119,17 @@ namespace Project_API.Controllers
         {
             return _context.Zone.Any(e => e.ZoneId == id);
         }
+
+        // get device data from zone id
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Device>> Getdevice(Guid id)
+        {
+            var device = await _context.Device
+                .Where(c => c.ZoneId == id)
+                .Include(c =>c.DeviceId)
+                .FirstOrDefaultAsync();
+            return device;
+        }
+
     }
 }

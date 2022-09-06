@@ -119,5 +119,16 @@ namespace Project_API.Controllers
         {
             return _context.Category.Any(e => e.CategoryId == id);
         }
+        
+        // get device data from catagory id
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Device>> Getdevice(Guid id)
+        {
+            var device = await _context.Device
+                .Where(c => c.CategoryId == id)
+                .Include(c => c.DeviceId)
+                .FirstOrDefaultAsync();
+            return device;
+        }
     }
 }
