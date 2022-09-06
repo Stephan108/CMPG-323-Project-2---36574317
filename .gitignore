@@ -11,3 +11,6 @@
 !.vscode/appsettings.json
 
 git rm --cached appsettings.json
+
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
