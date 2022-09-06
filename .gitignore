@@ -6,3 +6,6 @@
 *.xlk
 ~$*.ppt*
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/appsettings.json
