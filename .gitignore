@@ -9,3 +9,5 @@
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/appsettings.json
+
+git rm --cached appsettings.json
