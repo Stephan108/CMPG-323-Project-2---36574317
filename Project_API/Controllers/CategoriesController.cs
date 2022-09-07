@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Project_API.Authentication;
 using Project_API.Models;
 
 namespace Project_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = UserRoles.User)]
     public class CategoriesController : ControllerBase
     {
         private readonly ConnectedOfficeContext _context;
@@ -121,7 +124,7 @@ namespace Project_API.Controllers
         }
         
         // get device data from catagory id
-        [HttpGet("{id}")]
+        [HttpGet("device from catagory{id}")]
         public async Task<ActionResult<Device>> Getdevice(Guid id)
         {
             var device = await _context.Device
