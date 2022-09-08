@@ -6,13 +6,13 @@ the API project
 <h2>Api property 
 i have used C# .net core web Api to complete the project. Which uses swagger to to produce and deliver the the API
 
-<h2>how to use the api
+<h2>How to use the api
 By using this website https://project236574317.azurewebsites.net/swagger youll have acces to the API
-Youll first have have to register as a admin or user to gain access
-The endpoints are as follows
-https://officegameplan.azure-api.net/v1/api/Categories
-https://officegameplan.azure-api.net/v1/api/Categories/{id}
-https://officegameplan.azure-api.net/v1/api/Devices
-https://officegameplan.azure-api.net/v1/api/Devices/{id}
-https://officegameplan.azure-api.net/v1/api/Zones
-https://officegameplan.azure-api.net/v1/api/Zones/{id}
+<p>Youll first have have to register as a admin or user to gain access
+<p>The endpoints are as follows
+<p>https://officegameplan.azure-api.net/v1/api/Categories
+<p>https://officegameplan.azure-api.net/v1/api/Categories/{id}
+<p>https://officegameplan.azure-api.net/v1/api/Devices
+<p>https://officegameplan.azure-api.net/v1/api/Devices/{id}
+<p>https://officegameplan.azure-api.net/v1/api/Zones
+<p>https://officegameplan.azure-api.net/v1/api/Zones/{id}
