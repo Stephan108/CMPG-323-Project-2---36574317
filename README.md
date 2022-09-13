@@ -22,3 +22,4 @@ i have used C# .net core web Api to complete the project. Which uses swagger to 
 <p>Refrences used will be updated in the Refrencelist file
   https://github.com/Stephan108/CMPG-323-Project-2---36574317/blob/main/reference%20list
   
+![Captureworkshop](https://user-images.githubusercontent.com/105197212/189986665-5bf6f45f-68bc-4fe7-941e-a81cbb1732c9.PNG)
